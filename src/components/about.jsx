@@ -6,34 +6,31 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/about.jpg" className="img-responsive" alt="About Us" />
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
+              <h3>Our Mission</h3>
+              <p>
+                To revolutionize industries by merging cutting-edge AI technologies with human ingenuity, 
+                creating intelligent ecosystems that adapt, learn, and evolve with your business.
+              </p>
+              <h3>Our Team</h3>
+              <p>
+                Comprised of PhDs, engineers, and globally recognized AI experts, our team is dedicated 
+                to pushing the boundaries of what's possible in the digital world.
+              </p>
+              <h3>Our Partners</h3>
+              <p>
+                We have partnered with industry leaders like ExxonMobil, Intel, NEC, and Chevron to deliver 
+                multimillion-dollar impacts and automate the future of business.
+              </p>
+              <h3>Our Vision</h3>
+              <p>
+                To be the visionary leader in AI-driven industry disruption, empowering companies to lead 
+                their markets with innovative, scalable, and reliable AI solutions.
+              </p>
             </div>
           </div>
         </div>
