@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <div style={{display:'flex', alignItems:'center'}}>
-            <img src="../img/Logo.webp" alt="Logo" style={{ width: "60px", height: "60px", marginRight: "10px", borderRadius:'35px' }}/>
+            <img src="../img/Logo.webp" alt="Logo" style={{ width: "60px", height: "60px", marginRight: "10px", borderRadius:'35px', marginTop:'-10px' }}/>
             <a className="page-scroll" style={{color:"#3d306b",fontSize:"20px"}} href="#page-top">
             Automata Intelligence
           </a>{" "}

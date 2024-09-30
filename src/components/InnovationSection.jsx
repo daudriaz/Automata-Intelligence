@@ -16,12 +16,12 @@ export const InnovationSection = (props) => {
             bespoke solutions drive unmatched efficiency, innovation, and growth
             for organizations worldwide.
           </p>
-          <a
+          {/* <a
             href="#vision"
             className="btn btn-custom btn-lg page-scroll"
           >
             Learn More About Our Vision
-          </a>{" "}
+          </a>{" "} */}
         </div>
       </div>
     </div>

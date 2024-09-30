@@ -12,12 +12,12 @@ export const AutomationSection = (props) => {
                   <span></span>
                 </h1>
                 <p>Automata Intelligence is not just another AI solutions provider—we're the architects of intelligent enterprises. We revolutionize industries by merging state-of-the-art AI, machine learning, and advanced computing with human creativity.</p>
-                <a
+                {/* <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Discover More
-                </a>{" "}
+                </a>{" "} */}
               </div>
             </div>
           </div>

@@ -25,9 +25,9 @@ const TransformationPartnerSection = () => {
         </div>
       </div>
      
-      <a href="#success-stories"   className="btn btn-custom btn-lg page-scroll">
+      {/* <a href="#success-stories"   className="btn btn-custom btn-lg page-scroll">
         Explore Our Success Stories
-      </a>
+      </a> */}
     </div>
   );
 };

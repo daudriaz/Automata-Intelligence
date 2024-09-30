@@ -19,7 +19,7 @@ export const Features = (props) => {
           </div>
         </div>
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h3>Key Pillars</h3>
+          <h1>Key Pillars</h1>
         </div>
         <div className="row">
           {props.data
@@ -29,16 +29,16 @@ export const Features = (props) => {
                   className="col-12 col-sm-6 col-md-3 mb-4 text-center"
                 >
                   {" "}
-                  <i className={d.icon}></i>
+                  {/* <i className={d.icon}></i> */}
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>
               ))
             : "Loading..."}
         </div>
-        <a href="#vision" className="btn btn-custom btn-lg page-scroll" style={{marginBottom:50,marginTop:50}}>
+        {/* <a href="#vision" className="btn btn-custom btn-lg page-scroll" style={{marginBottom:50,marginTop:50}}>
           Meet Our Team of Experts
-        </a>{" "}
+        </a>{" "} */}
       </div>
     </div>
   );
