@@ -19,9 +19,9 @@ export const Navigation = (props) => {
           </button>
           <div style={{display:'flex', alignItems:'center'}}>
             <img src="../img/Logo.webp" alt="Logo" style={{ width: "60px", height: "60px", marginRight: "10px", borderRadius:'35px' }}/>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              Automata Intelligence
-            </a>{" "}
+            <a className="page-scroll" style={{color:"#3d306b",fontSize:"20px"}} href="#page-top">
+            Automata Intelligence
+          </a>{" "}
           </div>
         </div>
 
