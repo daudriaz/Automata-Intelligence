@@ -33,13 +33,13 @@ export const Team = (props) => {
             </div>
           ))}
         </div>
-        <a
+        {/* <a
           href="#full-case-studies"
           className="btn btn-custom btn-lg page-scroll"
           style={{ marginTop: 40 }}
         >
           Read Full Case Studies
-        </a>
+        </a> */}
       </div>
     </div>
   );

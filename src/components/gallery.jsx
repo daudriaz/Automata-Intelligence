@@ -34,23 +34,22 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Industries</h2>
-          
         </div>
         <div className="industry-cards">
-        {industries.map((industry, index) => (
-          <div className="industry-card" key={index}>
-            <h3 className="industry-title">{industry.title}</h3>
-            <p className="industry-description">{industry.description}</p>
-          </div>
-        ))}
-      </div>
-      <a
-            href="#vision"
-            style={{marginTop:40,maxWidth:"100%"}}
-            className="btn btn-custom btn-lg page-scroll"
-          >
-   Learn More 
-          </a>{" "}
+          {industries.map((industry, index) => (
+            <div className="industry-card" key={index}>
+              <h3 className="industry-title">{industry.title}</h3>
+              <p className="industry-description">{industry.description}</p>
+            </div>
+          ))}
+        </div>
+        {/* <a
+          href="#vision"
+          style={{ marginTop: 40, maxWidth: "100%" }}
+          className="btn btn-custom btn-lg page-scroll"
+        >
+          Learn More
+        </a>{" "} */}
       </div>
     </div>
   );

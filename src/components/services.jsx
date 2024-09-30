@@ -59,7 +59,7 @@ export const Services = (props) => {
             </p>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-12">
             <a
               href="#vision"
@@ -69,7 +69,7 @@ export const Services = (props) => {
               Discover Now
             </a>{" "}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
