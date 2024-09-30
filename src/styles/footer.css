@@ -1,0 +1,33 @@
+#footer {
+    background-color: #f4f4f4; /* Light background color */
+    padding: 20px 0;
+    margin-top: 50px; /* Space from the previous content */
+}
+
+.footer-nav {
+    margin-bottom: 15px; /* Space between nav and copyright */
+}
+
+.footer-nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-nav li {
+    display: inline; /* Display items in a row */
+    margin: 0 15px; /* Space between items */
+}
+
+.footer-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer-nav a:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}

@@ -1,32 +1,45 @@
 import React from "react";
-
+import "../styles/casestudies.css";
 export const Team = (props) => {
+  const caseStudies = [
+    {
+      title: "ExxonMobil",
+      description:
+        "Optimized over 4,000 oil wells, generating $50M/year in increased revenue.",
+    },
+    {
+      title: "Chevron",
+      description:
+        "Implemented predictive maintenance systems achieving $100M in annual savings.",
+    },
+    {
+      title: "Intel",
+      description:
+        "Deployed AI solutions enhancing operational efficiency and innovation.",
+    },
+  ];
+
   return (
     <div id="team" className="text-center">
-      <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+      <div className="case-studies-section">
+        <div className="section-title">
+          <h2>Case Studies</h2>
         </div>
-        <div id="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+        <div className="case-study-cards">
+          {caseStudies.map((caseStudy, index) => (
+            <div className="case-study-card" key={index}>
+              <h3 className="case-study-title">{caseStudy.title}</h3>
+              <p className="case-study-description">{caseStudy.description}</p>
+            </div>
+          ))}
         </div>
+        <a
+          href="#full-case-studies"
+          className="btn btn-custom btn-lg page-scroll"
+          style={{ marginTop: 40 }}
+        >
+          Read Full Case Studies
+        </a>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-
+import "../styles/footer.css";
 const initialState = {
   name: "",
   email: "",
@@ -97,7 +97,7 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+          {/* <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
@@ -123,8 +123,9 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
-          </div>
-          <div className="col-md-12">
+          </div> */}
+        
+          {/* <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -146,19 +147,44 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
+          
         </div>
+        <div className="container" style={{marginTop:50,marginBottom:50}}>
+            <div className="row">
+              <div className="col-md-8 col-md-offset-2 text-center">
+             <p> Automata Intelligence is not just an AI provider—it's the partner you trust when the stakes are high and the expectations higher. We work with the world's most complex enterprises to unlock hidden efficiencies, drive innovation, and achieve exponential business growth. By choosing Automata Intelligence, you're ensuring your business stays two steps ahead in a world where AI is the future.</p>
+                <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Discover More
+                </a>{" "}
+              </div>
+            </div>
+          </div>
       </div>
       <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
-        </div>
+      <div className="container text-center">
+  
+        <nav className="footer-nav">
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Solutions</a></li>
+            <li><a href="#portfolio">Industries</a></li>
+            <li><a href="#team">Case Studies</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p>
+          &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
+          <a href="http://www.templatewire.com" rel="nofollow">
+            TemplateWire
+          </a>
+        </p>
       </div>
+    </div>
     </div>
   );
 };

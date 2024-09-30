@@ -25,8 +25,8 @@ export const Services = (props) => {
             "loading"
           )}
         </div> */}
-        <div className="section-title">
-          <h2>Our Expertise</h2>
+        <div >
+          <h3>Our Expertise</h3>
         </div>
         <div className="row">
           <div className="col-md-6">
@@ -48,9 +48,13 @@ export const Services = (props) => {
         </div>
         <div className="row">
           <div className="col-md-12">
-            <button className="btn btn-primary">
-              Discover How Our Solutions Can Transform Your Business
-            </button>
+          <a
+            href="#vision"
+            className="btn btn-custom btn-lg page-scroll"
+          >
+                        Discover How Our Solutions Can Transform Your Business
+          </a>{" "}
+           
           </div>
         </div>
       </div>

@@ -4,8 +4,20 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
+      <div className="row">
+        <div className="text-center section-title">
+          <h1>
+          Powered by Innovation, Driven by Excellence
+            <span></span>
+          </h1>
+          <p>
+          We specialize in delivering advanced AI capabilities others only dream of. From autonomous robotics and drone control to predictive maintenance systems saving our clients millions annually, we don't just deliver solutions—we redefine possibilities.
+          </p>
+        
+        </div>
+      </div>
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Key Pillars</h2>
+          <h3>Key Pillars</h3>
         </div>
         <div className="row">
           {props.data
@@ -19,6 +31,12 @@ export const Features = (props) => {
               ))
             : "Loading..."}
         </div>
+        <a
+            href="#vision"
+            className="btn btn-custom btn-lg page-scroll"
+          >
+Meet Our Team of Experts
+          </a>{" "}
       </div>
     </div>
   );

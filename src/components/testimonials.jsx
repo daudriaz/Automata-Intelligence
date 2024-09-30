@@ -5,7 +5,11 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>What our clients say</h2>
+          <h2>A Visionary Leader in AI-Driven Industry Disruption</h2>
+          <p>Our AI solutions go beyond automation—they elevate businesses to new levels of operational excellence by providing actionable intelligence, not just data. When the stakes are high and expectations higher, we are the partner you trust.</p>
+        </div>
+        <div className="text-center">
+      <h3>Testimonials</h3>
         </div>
         <div className="row">
           {props.data
