@@ -49,7 +49,7 @@ export const Gallery = (props) => {
             style={{marginTop:40,maxWidth:"100%"}}
             className="btn btn-custom btn-lg page-scroll"
           >
-   Learn More About 
+   Learn More 
           </a>{" "}
       </div>
     </div>
