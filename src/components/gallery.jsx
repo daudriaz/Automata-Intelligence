@@ -46,10 +46,10 @@ export const Gallery = (props) => {
       </div>
       <a
             href="#vision"
-            style={{marginTop:40}}
+            style={{marginTop:40,maxWidth:"100%"}}
             className="btn btn-custom btn-lg page-scroll"
           >
-     Learn More About Our Industry Solutions
+   Learn More About 
           </a>{" "}
       </div>
     </div>

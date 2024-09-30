@@ -50,9 +50,10 @@ export const Services = (props) => {
           <div className="col-md-12">
           <a
             href="#vision"
+            style={{maxWidth:"100%"}}
             className="btn btn-custom btn-lg page-scroll"
           >
-                        Discover How Our Solutions Can Transform Your Business
+                        Discover Now
           </a>{" "}
            
           </div>
