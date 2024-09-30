@@ -264,6 +264,12 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
+/* Remove padding for mobile screens */
+@media (max-width: 576px) {
+  #about {
+    padding: 0; /* No padding on mobile */
+  }
+}
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
