@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav style={{backgroundColor:'#cf2727'}} id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
           <button
@@ -19,7 +19,7 @@ export const Navigation = (props) => {
           </button>
           <div style={{display:'flex', alignItems:'center'}}>
             <img src="../img/Logo.webp" alt="Logo" style={{ width: "60px", height: "60px", marginRight: "10px", borderRadius:'35px', marginTop:'-10px' }}/>
-            <a className="page-scroll" style={{color:"#3d306b",fontSize:"20px"}} href="#page-top">
+            <a className="page-scroll" style={{color:"white",fontSize:"20px"}} href="#page-top">
             Automata Intelligence
           </a>{" "}
           </div>
@@ -31,37 +31,37 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a style={{color:'white'}} href="#features" className="page-scroll">
                 Features
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a  style={{color:'white'}} href="#about" className="page-scroll">
                 About
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a  style={{color:'white'}} href="#services" className="page-scroll">
                 Solutions
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a  style={{color:'white'}} href="#portfolio" className="page-scroll">
                Industries 
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a  style={{color:'white'}} href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a style={{color:'white'}} href="#team" className="page-scroll">
                 Case Studies
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a style={{color:'white'}} href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>

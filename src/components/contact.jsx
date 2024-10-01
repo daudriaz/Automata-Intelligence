@@ -47,7 +47,7 @@ export const Contact = (props) => {
                 Ready to unlock hidden efficiencies and drive innovation? Contact us to explore how our bespoke AI solutions can elevate your business.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -94,7 +94,37 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
-              </form>
+              </form> */}
+              <div className="contact-info">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="contact-item">
+                      <h4 style={{color:'white'}}><strong>Email</strong></h4>
+                      <a href="mailto:info@automataintelligence.ai" style={{textDecoration:'none', color:'white'}}>info@automataintelligence.ai</a>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="contact-item">
+                      <h4 style={{color:'white'}}><strong>Phone Number</strong></h4>
+                      <p>+44 7938 937410</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="contact-item">
+                      <h4 style={{color:'white'}}><strong>WhatsApp</strong></h4>
+                      <p>Scan the QR code to contact us on WhatsApp:</p>
+                      <img
+                        src="../img/WhatsApp Logo.png"
+                        alt="WhatsApp QR Code"
+                        className="qr-code"
+                        style={{ width: '200px', height: '200px' }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* <div className="col-md-3 col-md-offset-1 contact-info">

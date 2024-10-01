@@ -1,4 +1,6 @@
-body,
+body{
+  background: linear-gradient(to right, #f8f8f9c7  0%, #c8cdfbc7  100%);
+}
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
@@ -316,7 +318,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162cf5c7 0%, #f91212c7 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -472,7 +474,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162cf5c7 0%, #f91212c7 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
