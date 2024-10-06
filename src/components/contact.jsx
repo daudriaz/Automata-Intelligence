@@ -106,7 +106,7 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="contact-item">
                       <h4 style={{color:'white'}}><strong>Phone Number</strong></h4>
-                      <p>+44 7938 937410</p>
+                      <p>+44 7735 907444</p>
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export const Contact = (props) => {
                       <h4 style={{color:'white'}}><strong>WhatsApp</strong></h4>
                       <p>Scan the QR code to contact us on WhatsApp:</p>
                       <img
-                        src="../img/WhatsApp Logo.png"
+                        src="../img/QR.jpeg"
                         alt="WhatsApp QR Code"
                         className="qr-code"
                         style={{ width: '200px', height: '200px' }}
