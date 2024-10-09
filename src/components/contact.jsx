@@ -47,6 +47,12 @@ export const Contact = (props) => {
                 Ready to unlock hidden efficiencies and drive innovation? Contact us to explore how our bespoke AI solutions can elevate your business.
                 </p>
               </div>
+              <img
+                        src="../img/map.png"
+                        alt="WhatsApp QR Code"
+                        className="qr-code"
+                       style={{ width: '100%', height: '50%' }}
+                      />
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
@@ -127,6 +133,7 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
+
           {/* <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
@@ -178,8 +185,9 @@ export const Contact = (props) => {
               </div>
             </div>
           </div> */}
-          
+       
         </div>
+       
         <div className="container" style={{marginTop:50,marginBottom:50}}>
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center">
