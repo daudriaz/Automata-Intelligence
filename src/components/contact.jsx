@@ -39,20 +39,23 @@ export const Contact = (props) => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                Ready to unlock hidden efficiencies and drive innovation? Contact us to explore how our bespoke AI solutions can elevate your business.
-                </p>
-              </div>
-              <img
+        <div className="section-title">
+                <h2>Our worldwide clients</h2></div>
+        <img
                         src="../img/map.png"
                         alt="WhatsApp QR Code"
                         className="qr-code"
                        style={{ width: '100%', height: '50%' }}
                       />
+          <div className="col-md-8">
+            <div className="row">
+              <div className="section-title" style={{marginTop:50}}>
+                <h2>Get In Touch</h2>
+                <p>
+                Ready to unlock hidden efficiencies and drive innovation? Contact us to explore how our bespoke AI solutions can elevate your business.
+                </p>
+              </div>
+            
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
