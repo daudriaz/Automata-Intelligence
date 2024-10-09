@@ -450,6 +450,8 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 20px 0;
+  background: linear-gradient(to right, #162cf5c7 0%, #f91212c7 100%);
+  color: rgba(255, 255, 255, 0.75);
 }
 /* Remove padding for mobile screens */
 @media (max-width: 576px) {

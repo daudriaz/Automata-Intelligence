@@ -33,6 +33,86 @@ export const Team = (props) => {
             </div>
           ))}
         </div>
+        <div className="section-title" style={{marginTop:50}}>
+          <h2>Our Clients</h2>
+        </div>
+        <div className="clients-grid">
+          <div className="client-box">
+            {" "}
+            <img
+              src="../img/clients/chevron_logo.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ width: "70px", height: "70px" }}
+            />
+          </div>
+          <div className="client-box"> <img
+              src="../img/clients/exonmobil.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/petro.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/intel.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ width: "100px", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/NEC.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ width: "100px", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/xto.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ width: "100px", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/bentley.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ width: "100px", height: "50px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/via.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "30px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/amberg.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "30px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/helvetis.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "30px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/3i.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "70px" }}
+            /></div>
+          <div className="client-box"><img
+              src="../img/clients/pulsar.png"
+              alt="WhatsApp QR Code"
+              className="qr-code"
+              style={{ maxWidth: "90%", height: "70px" }}
+            /></div>
+        </div>
         {/* <a
           href="#full-case-studies"
           className="btn btn-custom btn-lg page-scroll"
